@@ -9,6 +9,10 @@
     transform: scale(1.5);
 }
 
+.button-wrap {
+    padding-bottom: 30px;
+}
+
 .button {
     margin: 10px;
     padding: 10px;
