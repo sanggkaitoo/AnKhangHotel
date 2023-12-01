@@ -1,0 +1,38 @@
+.center {
+    text-align: center;
+}
+
+.title {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transform: scale(1.5);
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: #6A2611;
+    text-decoration: none;
+}
+
+.images {
+    padding-top: 50px;
+    text-align: center;
+}
+
+img {
+    padding-top: 20px;
+}
+
+.sh-background {
+    position: absolute;
+    z-index: -1;
+    top: -200px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: skewY(-10deg);
+}
