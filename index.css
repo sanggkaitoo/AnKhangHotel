@@ -1,12 +1,25 @@
+@font-face {
+    font-family: title-font;
+    src: url(fonts/DFVN\ Chloe\ Bold..otf);
+}
+
+.title-font {
+    font-family: 'title-font';
+}
+
 .center {
     text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
 }
 
 .title {
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    transform: scale(1.5);
 }
 
 .button-wrap {
@@ -19,17 +32,16 @@
     background-color: white;
     border-radius: 5px;
     color: #6A2611;
-    text-decoration: none;
 }
 
 .images {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
 }
 
 img {
-    padding-top: 20px;
-    box-shadow: #6A2611;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .sh-background {

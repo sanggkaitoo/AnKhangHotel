@@ -1,1 +1,0 @@
-window.location.replace('https://qrco.de/beauZV');
