@@ -86,3 +86,104 @@ a {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.copy-right {
+    font-family: body-font;
+    color: white;
+}
+
+.chocolat-image img {
+    transition: all 0.2s ease-in-out;
+}
+
+.chocolat-image img:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: scale(1.01);
+}
+
+.contact-us {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 45px;
+    width: 45px;
+    background-color: #DFD092;
+    border-radius: 50%;
+    line-height: 45px;
+    color: #6A2611;
+    animation: email-an linear 1s infinite;
+    /* padding: 10px; */
+    /* border-radius: 50%; */
+}
+
+@-webkit-keyframes email-an {
+    0% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 0 rgba(249, 92, 24, 0.2), 0 0 0 0 rgba(249, 92, 24, 0.2)
+    }
+
+    40% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 15px rgba(249, 92, 24, 0.2), 0 0 0 0 rgba(249, 92, 24, 0.2)
+    }
+
+    80% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 30px rgba(249, 92, 24, 0), 0 0 0 26.7px rgba(249, 92, 24, 0.067)
+    }
+
+    100% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 30px rgba(249, 92, 24, 0), 0 0 0 40px rgba(249, 92, 24, 0.0)
+    }
+}
+
+@keyframes email-an {
+    0% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 0 rgba(249, 92, 24, 0.2), 0 0 0 0 rgba(249, 92, 24, 0.2)
+    }
+
+    40% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 15px rgba(249, 92, 24, 0.2), 0 0 0 0 rgba(249, 92, 24, 0.2)
+    }
+
+    80% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 30px rgba(249, 92, 24, 0), 0 0 0 26.7px rgba(249, 92, 24, 0.067)
+    }
+
+    100% {
+        box-shadow: 0 8px 10px rgba(249, 92, 24, 0.3), 0 0 0 30px rgba(249, 92, 24, 0), 0 0 0 40px rgba(249, 92, 24, 0.0)
+    }
+}
+
+@keyframes opsimple {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+6
+@-webkit-keyframes opsimple {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

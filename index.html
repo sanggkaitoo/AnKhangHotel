@@ -7,12 +7,26 @@
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="images/logo-dark.svg" type="image/x-icon">
     <link rel="stylesheet" href="dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/chocolat/css/chocolat.css">
 </head>
 <body>
-    <!-- <div class="sh-background" ng-style="getBackgroundStyles()" style="height: 500px;background-color: rgb(106, 38, 17);color: rgb(255, 255, 255);"></div> -->
     <div class="sh-background"></div>
 
-    <div class="center">
+    <!-- <div class="contact-us text-center">
+        <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+        </a>
+    </div> -->
+
+    <a class="contact-us text-center" href="tel:0988708818">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+        </svg>
+    </a>
+
+    <div class="container text-center">
         <div class="hotel-name">
             <div class="col-md-8 m-auto">
                 <div class="col-2 col-md-1 m-auto">
@@ -21,8 +35,8 @@
             </div>
             <h1 class="title">An Khang Hotel</h1>
         </div>
-        <div class="row">
-            <div class="col-md-3"></div>
+        <div class="row p-0">
+            <div class="col-md-3 p-0"></div>
             <div class="button-wrap col-12 col-md-2">
                 <a class="button" href="https://www.facebook.com/Hotel.An.Khang">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -47,30 +61,47 @@
                     Bản đồ chỉ đường
                 </a>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3 p-0"></div>
         </div>
     </div>
 
-    <div class="col-11 col-md-6 m-auto room-image">
+    <!-- <div class="col-11 col-md-6 m-auto room-image">
         <img src="images/1.jpg" alt="Lễ tân" width="100%">
         <img src="images/2.jpg" alt="Phòng ngủ 1" width="100%">
         <img src="images/3.jpg" alt="Giường đôi" width="100%">
         <img src="images/4.jpg" alt="Phòng ngủ 2" width="100%">
         <img src="images/5.jpg" alt="Nhà vệ sinh" width="100%">
+    </div> -->
+    <div class="chocolat-parent col-11 col-md-6 m-auto room-image">
+        <a class="chocolat-image" href="images/1.jpg">
+            <img src="images/1.jpg" alt="Lễ tân" width="100%">
+        </a>
+        <a class="chocolat-image" href="images/2.jpg">
+            <img src="images/2.jpg" alt="Phòng ngủ 1" width="100%">
+        </a>
+        <a class="chocolat-image" href="images/3.jpg">
+            <img src="images/3.jpg" alt="Giường đôi" width="100%">
+        </a>
+        <a class="chocolat-image" href="images/4.jpg">
+            <img src="images/4.jpg" alt="Phòng ngủ 2" width="100%">
+        </a>
+        <a class="chocolat-image" href="images/5.jpg">
+            <img src="images/5.jpg" alt="Nhà vệ sinh" width="100%">
+        </a>
     </div>
 
-    <div class="col-12 center pt-3">
-        <p>Design by <a href="https://www.facebook.com/pmsangg/">Sang Kaito</a></p>
+    <div class="copy-right col-12 center pt-3">
+        <p>Design by <a style="color:#DFD092" href="https://www.facebook.com/pmsangg/">Sang Kaito</a></p>
     </div>
     
-    <!-- <div class="images">
-        <img src="./images/1.jpg" alt="" width="50%">
-        <img src="./images/2.jpg" alt="" width="50%">
-        <img src="./images/3.jpg" alt="" width="50%">
-        <img src="./images/4.jpg" alt="" width="50%">
-        <img src="./images/5.jpg" alt="" width="50%">
-    </div> -->
-    <!-- <script src="./index.js"></script> -->
     <script src="dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="dist/chocolat/js/chocolat.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) { 
+            Chocolat(document.querySelectorAll('.chocolat-parent .chocolat-image'), {
+                loop: true
+            })
+        })
+    </script>
 </body>
 </html>
