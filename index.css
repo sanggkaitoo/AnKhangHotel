@@ -1,6 +1,15 @@
 @font-face {
     font-family: title-font;
-    src: url(fonts/DFVN\ Chloe\ Bold..otf);
+    src: url("dist/fonts/DFVN-Chloe-Bold.otf");
+}
+
+@font-face {
+    font-family: body-font;
+    src: url("dist/fonts/BeVietnamPro-Medium.ttf");
+}
+
+body {
+    font-family: body-font;
 }
 
 .title-font {
@@ -17,9 +26,10 @@ a {
 }
 
 .title {
+    font-family: title-font;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .button-wrap {
@@ -27,11 +37,12 @@ a {
 }
 
 .button {
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 5px;
-    color: #6A2611;
+    color: white;
+    border: 1px solid white;
 }
 
 .images {
@@ -42,14 +53,21 @@ a {
 img {
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 
 .sh-background {
-    position: absolute;
+    position: fixed;
     z-index: -1;
-    top: -200px;
-    left: 0;
-    right: 0;
+    /* top: -200px; */
+    top: 0;
+    /* left: 0;
+    right: 0; */
     width: 100%;
-    transform: skewY(-10deg);
+    height: 100vh;
+    /* transform: skewY(-10deg); */
+    background-image: url("images/Background.png");
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
 }
